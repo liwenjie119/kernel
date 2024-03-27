@@ -13,9 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "QXY716"
         type: choice
         options:
+          - QXY716
           - unifreq
           - codesnas
       kernel_version:
@@ -30,7 +31,7 @@ on:
           - 6.1.y
           - 6.6.y
           - 6.1.y_6.6.y
-          - 6.1.y_5.15.y
+          - 5.15.y_6.1.y_6.6.y
           - 5.4.y_5.10.y
       kernel_auto:
         description: "Auto use the latest kernel"
@@ -145,7 +146,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Compile the kernel [ ${{ inputs.kernel_version }} ]
-        uses: ophub/amlogic-s9xxx-armbian@main
+        uses: QXY716/Fine3399-rk3399-armbian@main
         if: ${{ steps.mapped.outputs.status }} == 'success' && !cancelled()
         with:
           build_target: kernel
