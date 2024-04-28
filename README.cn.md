@@ -1,8 +1,8 @@
-# Kernel Description
+# 内核说明
 
-View Chinese description  |  [查看中文说明](README.cn.md)
+查看英文说明 | [View English description](README.md)
 
-These kernels can be used for `Armbian` and `OpenWrt` systems, such as the [amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian), [amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt), [flippy-openwrt-actions](https://github.com/ophub/flippy-openwrt-actions), and [unifreq/openwrt_packit](https://github.com/unifreq/openwrt_packit) projects. They can be integrated when compiling firmware or installed in an existing system. Among them, [kernel_flippy](https://github.com/ophub/kernel/releases/tag/kernel_flippy), [kernel_stable](https://github.com/ophub/kernel/releases/tag/kernel_stable), [kernel_dev](https://github.com/ophub/kernel/releases/tag/kernel_dev) and [kernel_beta](https://github.com/ophub/kernel/releases/tag/kernel_beta) are interchangeable general-purpose kernels. For specific usage methods, see the [Kernel Use Instructions](https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/compile-kernel).
+这些内核可用于 `Armbian` 和 `OpenWrt` 系统。例如 [amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian), [amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt), [flippy-openwrt-actions](https://github.com/ophub/flippy-openwrt-actions) 和 [unifreq/openwrt_packit](https://github.com/unifreq/openwrt_packit) 等项目。可以在编译固件时集成，也可以安装到已有的系统中使用。其中的 [kernel_flippy](https://github.com/ophub/kernel/releases/tag/kernel_flippy)，[kernel_stable](https://github.com/ophub/kernel/releases/tag/kernel_stable)，[kernel_dev](https://github.com/ophub/kernel/releases/tag/kernel_dev) 和 [kernel_beta](https://github.com/ophub/kernel/releases/tag/kernel_beta) 是可以互换使用的通用内核。具体使用方法详见[内核使用说明](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/compile-kernel/README.cn.md#内核使用说明)。
 
 - 在 Releases 的 [kernel_flippy](https://github.com/ophub/kernel/releases/tag/kernel_flippy) 里的内核文件是`稳定版`，是`flippy`制作分享的系列内核。
 - 在 Releases 的 [kernel_stable](https://github.com/ophub/kernel/releases/tag/kernel_stable) 里的内核文件是`稳定版`，根据用户需求启用了更多支持选项。
