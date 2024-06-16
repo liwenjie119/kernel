@@ -13,9 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "QXY716"
         type: choice
         options:
+          - QXY716
           - unifreq
       kernel_version:
         description: "Select kernel version"
@@ -50,6 +51,7 @@ on:
         type: choice
         options:
           - kernel-config/release/general
+          - kernel-config/release/flippy
           - false
       kernel_patch:
         description: "Set the directory for kernel patches"
