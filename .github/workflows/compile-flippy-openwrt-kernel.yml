@@ -96,6 +96,8 @@ on:
         type: choice
         options:
           - -flippy
+          - -flippy-90+
+          - -flippy-90+o
           - -QXY716
 
 env:
