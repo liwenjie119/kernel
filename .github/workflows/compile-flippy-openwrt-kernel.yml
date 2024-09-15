@@ -102,8 +102,8 @@ on:
         options:
           - -flippy
           - -flippy-89+o
-          - -flippy-91+
-          - -flippy-91+o
+          - -flippy-92+
+          - -flippy-92+o
           - -QXY716
 
 env:
